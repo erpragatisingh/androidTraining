@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/401/trunk/OpenSudokuTest/src/cz/romario/opensudoku/game
+END
+CellTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/401/trunk/OpenSudokuTest/src/cz/romario/opensudoku/game/CellTest.java
+END
+CellNoteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/401/trunk/OpenSudokuTest/src/cz/romario/opensudoku/game/CellNoteTest.java
+END
+CellCollectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/401/trunk/OpenSudokuTest/src/cz/romario/opensudoku/game/CellCollectionTest.java
+END
+CellGroupTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/401/trunk/OpenSudokuTest/src/cz/romario/opensudoku/game/CellGroupTest.java
+END

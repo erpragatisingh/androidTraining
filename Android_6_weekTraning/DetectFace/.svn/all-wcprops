@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/65/trunk/DetectFace
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/64/trunk/DetectFace/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/64/trunk/DetectFace/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/64/trunk/DetectFace/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/64/trunk/DetectFace/AndroidManifest.xml
+END

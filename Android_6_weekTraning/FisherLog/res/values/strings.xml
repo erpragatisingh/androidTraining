@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FisherLog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string-array name="species">
+        <item >Striped Bass</item>
+        <item >Cod</item>
+        <item >Pickerel</item>
+        <item >LargeMouth Bass</item>
+        <item >Striped Bass</item>
+        <item >Blue Fish</item>
+        <item >Fluke</item>
+        <item >Porgy</item>
+        <item >False Albacore</item>
+        <item/>
+    </string-array>
+    <string-array name="method">
+        <item >A17/Tube</item>
+        <item >Jointed Storm</item>
+        <item >Spro</item>
+        <item >9 Shad</item>
+        <item >Live Eel</item>
+        <item >Rigged Eel</item>
+        <item >Bad Boy</item>
+        <item >7 Red Fin</item>
+        <item >RedFin Jointed</item>
+        <item />
+    </string-array>
+</resources>

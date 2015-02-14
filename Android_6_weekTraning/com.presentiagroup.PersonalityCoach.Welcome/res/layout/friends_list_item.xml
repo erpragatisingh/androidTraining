@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:background="@drawable/bluebar"
+   
+    >
+<LinearLayout 
+	android:id="@+id/llFrnd"
+    android:orientation="vertical"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:cacheColorHint="#00000000"
+	
+	android:layout_marginLeft="2dp"
+	
+	android:layout_marginBottom="2dp"
+	android:layout_marginTop="2dp"
+	android:layout_alignParentLeft="true" 
+    android:layout_centerVertical="true"
+  
+    >
+
+   <TextView android:id="@+id/tvFriend"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:layout_width="200dp"
+       	android:layout_height="wrap_content"
+         
+         android:maxLines="2"
+         android:text="Friend" 
+         android:textSize="18sp" android:textStyle="bold" 
+         android:textColor="#065ab3"/>
+   <TextView android:id="@+id/tvFriendType"
+           	android:layout_gravity="center_vertical"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true" 
+         	android:paddingLeft="10dip"
+         	android:text="type" 
+         	android:textSize="16sp" android:textStyle="bold" 
+         	android:textColor="#40444c"/>      
+  		
+</LinearLayout>
+<LinearLayout 
+	android:id="@+id/llFrndBtn"
+	android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content" 
+    android:layout_alignParentRight="true" 
+    android:layout_marginRight="2dp"
+    android:layout_centerVertical="true" 
+    android:layout_height="wrap_content" >
+	<Button android:id="@+id/btnEditFriend"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/x_edit_btn"/>
+    <Button android:id="@+id/btnDeleteFriend"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/x_delete_btn"/></LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/android_medical"></item>
+   
+    <item android:state_enabled="true"
+        android:drawable="@drawable/a993894_220924251389465_104537979_n"></item>
+    
+    
+    <item android:state_focused="false"
+        android:drawable="@drawable/a993894_220924251389465_104537979_n"></item>
+</selector>

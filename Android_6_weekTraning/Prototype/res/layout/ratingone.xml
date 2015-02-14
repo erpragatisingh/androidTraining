@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/bhg"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tex1"
+        android:layout_below="@+id/tex1"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tex1"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginRight="51dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tex1"
+        android:layout_below="@+id/bu1"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="38dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

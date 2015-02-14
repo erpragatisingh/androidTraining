@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs">
+    <RelativeLayout android:id="@+id/ivScales" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content"
+				 android:text="Preference Scales" 
+				 android:textStyle="bold" 
+				 android:textSize="18dip"
+				 android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   android:id="@+id/btnHome" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/ivScales"
+    >
+	<Button android:id="@+id/btnEI" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_e_i_btn"></Button>
+	<Button android:id="@+id/btnSN" android:layout_marginTop="5dp" android:layout_below="@id/btnEI" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_s_n_btn"></Button>
+	<Button android:id="@+id/btnTF" android:layout_marginTop="5dp" android:layout_below="@id/btnSN" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_t_f_btn"></Button>
+	<Button android:id="@+id/btnJP" android:layout_marginTop="5dp" android:layout_below="@id/btnTF" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_j_p_btn"></Button>
+	
+	
+	
+</RelativeLayout>
+</RelativeLayout>

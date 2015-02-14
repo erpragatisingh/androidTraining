@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/lightwood"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewwed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewtues"
+        android:layout_below="@+id/viewtues"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        android:textColor="#000080"
+        android:text="Wednesday" />
+
+    <Button
+        android:id="@+id/viewtues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewmon"
+        android:layout_below="@+id/viewmon"
+        android:layout_marginTop="14dp"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        android:textColor="#000080"
+        android:text="Tuesday" />
+
+    <Button
+        android:id="@+id/viewthurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewwed"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        android:textColor="#000080"
+        android:text="Thursday" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:background="@android:color/transparent"
+        android:textColor="#008080"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/viewfri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewthurs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        android:text="Friday"
+        android:textColor="#000080"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/viewsat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/viewthurs"
+        android:layout_below="@+id/viewfri"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/transparent"
+        android:text="Saturday"
+        android:textColor="#000080"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/viewmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/transparent"
+        android:text="Monday"
+        android:textColor="#000080"
+        android:textSize="30sp" />
+
+</RelativeLayout>

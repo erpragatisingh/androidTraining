@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgroCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="Weath">
+        <item >Temperature</item>
+        <item >Rainfall</item>
+        <item >Humidity</item>
+        <item >Evaporation</item>
+        <item />
+    </string-array>
+    <string-array name="Crop">
+        <item >Tea</item>
+        <item >Coffee</item>
+        <item >Cabbages</item>
+        <item >Onion</item>
+        <item >Potatoes</item>
+        <item >Wheat</item>
+        <item />
+    </string-array>
+	  <string-array name="season">
+        <item >Winter</item>
+        <item >Summer</item>
+        <item >Spring</item>
+        <item >Rainy</item>
+        <item />
+    </string-array>
+    
+</resources>

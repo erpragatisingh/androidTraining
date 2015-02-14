@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:title="A"
+    android:id="@+id/item1"
+    android:icon="@drawable/icon"
+    />
+    <item android:title="B"
+    android:id="@+id/item2"
+    android:icon="@drawable/icon"
+    />
+    <item android:title="C"
+    android:id="@+id/item3"
+    android:icon="@drawable/icon"
+    />
+    <item android:title="D"
+    android:id="@+id/item4"
+    android:icon="@drawable/icon"
+    />
+       <item android:title="E"
+    android:id="@+id/item5"
+    android:icon="@drawable/icon"
+    />
+    <item android:title="F"
+    android:id="@+id/item6"
+    android:icon="@drawable/icon"
+    />
+       <item android:title="G"
+    android:id="@+id/item7"
+    android:icon="@drawable/icon"
+    />
+    <item android:title="H"
+    android:id="@+id/item8"
+    android:icon="@drawable/icon"
+    />
+    
+</menu>

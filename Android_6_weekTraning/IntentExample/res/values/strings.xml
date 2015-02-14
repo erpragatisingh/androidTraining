@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntentExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="data">
+        <item >Open Browser</item>
+        <item >Call Someone</item>
+        <item >Dial</item>
+        <item>Take Picture</item>
+        <item >Show Contacts</item>
+        <item >Edit First Contact</item>
+    </string-array>
+     
+    <string name="m">Return to Menu</string>
+    <string name="str">Back</string>
+
+</resources>

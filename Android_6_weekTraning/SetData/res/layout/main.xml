@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<EditText android:id="@+id/privateId" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/privateBtn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Private" />
+	<EditText android:id="@+id/readId" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/readBtn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Read" />
+	<EditText android:id="@+id/writeId" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/writeBtn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Write" />
+	<EditText android:id="@+id/read_writeId" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/read_writeBtn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Read_Write" />
+</LinearLayout>

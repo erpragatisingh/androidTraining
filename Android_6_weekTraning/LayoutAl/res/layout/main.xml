@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/butnlinr"
+            style="@android:style/ButtonBar"
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:onClick="Mylinear"
+            android:paddingLeft="10dp"
+            android:text="Linear Layout With OnClick" />
+
+        <Button
+            android:id="@+id/butGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Grid OnclickListner" />
+
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ral1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+
+        <Button
+            android:id="@+id/butRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Relative Layout" />
+
+        <Button
+            android:id="@+id/butScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="22dp"
+            android:text="Scroll View" />
+
+    </RelativeLayout>
+<Button
+            android:id="@+id/butList"
+            android:layout_width="70dp"
+            android:layout_height="114dp"
+            android:text="List View" android:textStyle="bold"   />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Table Layout" />
+
+    <Button
+        android:id="@+id/butWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web View" />
+
+</LinearLayout>

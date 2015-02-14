@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:scrollbars="vertical" 
+                android:background="@drawable/bgs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:soundEffectsEnabled="true" 
+                
+                >
+  <RelativeLayout android:id="@+id/ivMore" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView 	android:layout_width="wrap_content" 
+				 			android:layout_height="wrap_content"
+				 			android:text="Friends and Colleagues" 
+				 			android:textStyle="bold" 
+				 			android:textSize="18dip"
+				 			android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   			android:id="@+id/btnHome" 
+				   			android:layout_width="wrap_content" 
+				   			android:layout_height="wrap_content"
+				   			android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<ListView android:id="@+id/lvFriends" 
+		  android:layout_height="0dip"
+		  android:layout_width="fill_parent"
+		  android:divider="#00000000"
+		  android:listSelector="#00000000"
+		  android:cacheColorHint="#00000000"
+		  android:background="#00000000"
+		  android:layout_weight="1.0" 
+		  android:scrollbars="vertical" 
+		  android:scrollbarSize="5dip"
+		  android:layout_marginTop="10dp"
+		  android:paddingLeft="10dp"
+		  android:paddingRight="10dp"
+		  
+		 >
+
+</ListView>
+<Button  
+				   android:id="@+id/btnADDFriend" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:background="@drawable/x_add_btn"
+				   android:layout_marginTop="5dp"
+				   android:layout_marginBottom="75dp"
+				   android:layout_gravity="center_horizontal"
+				   >
+				 </Button>
+
+</LinearLayout>

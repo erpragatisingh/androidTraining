@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dDate">Default Date:</string>
+    <string name="dTime">Default Time:</string>
+    <string name="dClock">Digital Clock:</string>
+    <string name="aClock">Analog Clock:</string>
+    <string name="app_name">DateTimeDemo</string>
+</resources>

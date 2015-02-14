@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background2"
+    android:layout_height="match_parent" >
+    
+    <EditText
+        android:id="@+id/ueditLec2"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ulec2"
+        android:layout_alignLeft="@+id/ueditLec1"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec2"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/ulec3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ulec2"
+        android:layout_below="@+id/ulec2"
+        android:layout_marginTop="19dp"
+        android:text="Lec 3 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <EditText
+        android:id="@+id/ueditLec3"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/ueditLec2"
+        android:layout_alignTop="@+id/ulec3"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec3"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/ulec4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ulec3"
+        android:layout_below="@+id/ulec3"
+        android:layout_marginTop="19dp"
+        android:text="Lec 4 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <EditText
+        android:id="@+id/ueditLec4"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ulec4"
+        android:layout_alignLeft="@+id/ueditLec3"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec4"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/ulec6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ulec5"
+        android:layout_below="@+id/ueditLec5"
+        android:layout_marginTop="21dp"
+        android:text="Lec 6 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <TextView
+        android:id="@+id/ulec7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ulec6"
+        android:layout_below="@+id/ueditLec6"
+        android:layout_marginTop="18dp"
+        android:text="Lec 7 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <EditText
+        android:id="@+id/ueditLec7"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ulec7"
+        android:layout_alignLeft="@+id/ueditLec6"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec7"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/ueditLec8"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ulec8"
+        android:layout_alignLeft="@+id/ueditLec7"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec8"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/usubc1"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Update" />
+
+    <EditText
+        android:id="@+id/ueditLec1"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/ulec2"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/ulec1"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec1"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/ueditLec6"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ulec6"
+        android:layout_alignLeft="@+id/ueditLec5"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec6"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/ulec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="14dp"
+        android:text="Lec 1 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <EditText
+        android:id="@+id/ueditLec5"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/ueditLec4"
+        android:layout_below="@+id/ueditLec4"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Your Lec5"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/ulec8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ulec7"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/ueditLec1"
+        android:text="Lec 8 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <TextView
+        android:id="@+id/ulec5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ueditLec5"
+        android:layout_alignLeft="@+id/ulec4"
+        android:text="Lec 5 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+
+    <TextView
+        android:id="@+id/ulec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ulec1"
+        android:layout_below="@+id/ulec1"
+        android:layout_marginTop="16dp"
+        android:text="Lec 2 :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FFFF" />
+    
+
+</RelativeLayout>

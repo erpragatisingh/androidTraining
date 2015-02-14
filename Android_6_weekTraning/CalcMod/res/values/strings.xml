@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalcMod</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="one">Enter Number Here</string>
+    <string name="two">Enter Number Here</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="ad">ADD</string>
+    <string name="su">SUB</string>
+    <string name="mu">MUL</string>
+    <string name="tx">Your Answer :</string>
+    <string name="di">DIV</string>
+    <string name="eq">=</string>
+
+</resources>

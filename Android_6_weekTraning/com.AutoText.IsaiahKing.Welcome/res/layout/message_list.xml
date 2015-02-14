@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:scrollbars="vertical" 
+                android:background="@drawable/bg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:soundEffectsEnabled="true" 
+                android:scrollbarSize="5dip" 
+                android:scrollbarAlwaysDrawVerticalTrack="true">
+                
+                
+<RelativeLayout android:id="@+id/ivSettings" 
+				
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:background="@drawable/topbar">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message List" android:textStyle="bold" android:layout_centerInParent="true" android:textColor="#A2F414"></TextView>
+				</RelativeLayout>
+<ListView android:id="@+id/lvMessagermain" 
+		  android:layout_height="0dip"
+		  android:layout_width="fill_parent"
+		  
+		  android:cacheColorHint="#00000000"
+			android:background="#00000000"
+		  android:layout_weight="1.0" 
+		  android:scrollbars="none" 
+		  android:isScrollContainer="true">
+
+</ListView>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:background="@drawable/bottombar">
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:soundEffectsEnabled="true" 
+            android:layout_marginLeft="15dip"
+            android:layout_toRightOf="@+id/btnAddMessage" android:layout_marginTop="15dip" android:background="@drawable/settings_button"/>
+ <Button 
+ android:id="@+id/btnAddMessage" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content" 
+ android:layout_marginTop="15dip" 
+ android:layout_marginLeft="5dip" android:background="@drawable/addmessage_button">
+ </Button>
+</RelativeLayout>
+
+</LinearLayout>

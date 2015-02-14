@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:visibility="visible" >
+  <ImageButton
+        android:id="@+id/imagelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" 
+        android:src="@drawable/ic_select_buy_own" />
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="489dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/imagelogo"
+        android:hint = "Enter your name"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="12dp"
+        android:hint = "Enter your email"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEmail"
+         android:layout_below="@+id/editEmail"
+                 android:layout_marginTop="12dp"
+        android:hint = "Enter password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editcnfpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editpassword"
+        android:layout_below="@+id/editpassword"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+        android:hint = "Reenter password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btsubmit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editcnfpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btsubmit"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="" />
+
+</RelativeLayout>

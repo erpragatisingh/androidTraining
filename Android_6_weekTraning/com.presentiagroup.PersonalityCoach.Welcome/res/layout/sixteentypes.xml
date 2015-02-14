@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs">
+    <RelativeLayout android:id="@+id/ivSixteen" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content"
+				 android:text="Personality Profiles" 
+				 android:textStyle="bold" 
+				 android:textSize="18dip"
+				 android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   android:id="@+id/btnHome" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<RelativeLayout 
+    android:layout_below="@+id/ivSixteen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    >
+	
+	
+	
+	
+	
+	
+	
+<LinearLayout 
+android:id="@+id/LinearLayout01"
+ android:orientation="horizontal" 
+ android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+<Button 
+android:id="@+id/btnISTJ" android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/x_istj_btn"></Button>
+<Button  android:id="@+id/btnISFJ" android:layout_marginLeft="5dp"
+ android:layout_width="wrap_content" android:layout_height="wrap_content" 
+ android:background="@drawable/x_isfj_btn"></Button>
+<Button  android:id="@+id/btnINFJ" android:layout_marginLeft="5dp"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:background="@drawable/x_infj_btn"></Button>
+<Button  android:id="@+id/btnINTJ" android:layout_marginLeft="5dp"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:background="@drawable/x_intj_btn"></Button>
+</LinearLayout>
+<LinearLayout 
+android:id="@+id/LinearLayout02"
+ android:orientation="horizontal" 
+ android:layout_marginTop="5dp"
+ android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout01">
+<Button  android:id="@+id/btnISTP" 
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"  android:background="@drawable/x_istp_btn"></Button>
+<Button  android:id="@+id/btnISFP" android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+ android:background="@drawable/x_isfp_btn" android:layout_marginLeft="5dp"></Button>
+<Button  android:id="@+id/btnINFP"
+ android:layout_width="wrap_content" android:layout_height="wrap_content" 
+ android:background="@drawable/x_infp_btn" android:layout_marginLeft="5dp"></Button>
+<Button  android:id="@+id/btnINTP" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_intp_btn" android:layout_marginLeft="5dp"></Button>
+</LinearLayout>
+<LinearLayout 
+android:id="@+id/LinearLayout03"
+ android:orientation="horizontal" 
+ android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:layout_marginTop="5dp"
+   android:layout_below="@+id/LinearLayout02">
+<Button  android:id="@+id/btnESTP" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_estp_btn"></Button>
+<Button  android:id="@+id/btnESFP" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_esfp_btn" android:layout_marginLeft="5dp"></Button>
+<Button  android:id="@+id/btnENFP" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_enfp_btn" android:layout_marginLeft="5dp"></Button>
+<Button android:id="@+id/btnENTP" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_entp_btn" android:layout_marginLeft="5dp"></Button>
+</LinearLayout>
+<LinearLayout 
+android:id="@+id/LinearLayout04"
+ android:orientation="horizontal" 
+ android:layout_marginTop="5dp"
+ android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout03">
+<Button  android:id="@+id/btnESTJ" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_estj_btn"></Button>
+<Button  android:id="@+id/btnESFJ" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_esfj_btn" android:layout_marginLeft="5dp"></Button>
+<Button  android:id="@+id/btnENFJ" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" 
+android:background="@drawable/x_enfj_btn" android:layout_marginLeft="5dp"></Button>
+<Button  android:id="@+id/btnENTJ" 
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:background="@drawable/x_entj_btn" android:layout_marginLeft="5dp"></Button>
+</LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

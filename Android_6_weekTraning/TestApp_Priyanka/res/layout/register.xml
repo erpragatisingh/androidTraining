@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" 
+    android:padding="10dp"
+   >
+<ScrollView  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name:" 
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textSize="15dp"/>
+    <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/user_name"
+    	 android:textColor="#000000"
+    	 android:textSize="15dp"/>
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter email:"
+         android:textColor="#000000" 
+         android:background="#FFFFFF"
+         android:textSize="15dp"/>
+       <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/user_email"
+    	 android:textColor="#000000"
+    	 android:textSize="15dp"/>
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter password:"
+         android:textColor="#000000"
+         android:background="#FFFFFF" 
+         android:textSize="15dp"/>
+       <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/user_password"
+    	 android:textColor="#000000"
+    	 android:textSize="15dp"
+    	 android:inputType="textPassword"></EditText>d
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Phone Number:"
+         android:textColor="#000000" 
+         android:background="#FFFFFF"
+         android:textSize="15dp"/>
+         <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/user_phone"
+    	 android:textColor="#000000"
+    	 android:textSize="15dp"/>
+          <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Address:"
+         android:textColor="#000000"
+         android:background="#FFFFFF"
+         android:textSize="15dp" />
+           <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/user_address"
+    	 android:textColor="#000000"/>
+           <Button android:layout_width="wrap_content"
+               		android:layout_height="35dp"
+               		android:textSize="15dp"
+               		android:text="Get Registered"
+               		android:id="@+id/submit_button"
+               		android:layout_gravity="center_horizontal"
+               		 android:textColor="#000000"/>
+           </LinearLayout>
+          </ScrollView>  
+
+</LinearLayout>

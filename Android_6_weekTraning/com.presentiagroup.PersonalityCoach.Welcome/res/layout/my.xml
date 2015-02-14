@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs"
+    >
+    <RelativeLayout android:id="@+id/ivMy" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView 	android:id="@+id/tvTitle" 
+							android:layout_width="wrap_content" 
+				 			android:layout_height="wrap_content"
+				 			android:text="Enter/Update your own Type" 
+				 			android:textStyle="bold" 
+				 			android:textSize="17sp"
+				 			android:textColor="#ffffff" 
+				 			android:layout_centerVertical="true" 
+				 			android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   			android:id="@+id/btnHome" 
+				   			android:layout_width="wrap_content" 
+				   			android:layout_height="wrap_content"
+				   			android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:orientation="horizontal"
+android:layout_below="@+id/ivMy"
+android:layout_marginTop="20dp"
+android:layout_height="wrap_content" 
+android:layout_width="fill_parent">
+<TextView android:text="Name:" android:id="@+id/tvAnme" android:layout_marginLeft="10dp" android:layout_width="100dp" android:textColor="#065ab3" android:textSize="18sp" android:textStyle="bold" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/etName" android:paddingLeft="5dp"
+  android:paddingBottom="5dp" android:maxLength="30" android:singleLine="true"  android:background="@drawable/textbox"  android:layout_height="wrap_content" android:layout_width="150dp"></EditText>
+
+</LinearLayout>
+
+<LinearLayout  android:id="@+id/LinearLayout02"
+android:orientation="horizontal"
+android:layout_marginTop="20dp"
+android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout01" android:layout_width="fill_parent">
+<TextView android:text="Type:"
+ android:id="@+id/tvType"
+   android:layout_width="100dp" android:layout_marginLeft="10dp" android:textColor="#065ab3" android:textSize="18sp" android:textStyle="bold" 
+    android:layout_height="wrap_content">
+</TextView>
+<Spinner android:id="@+id/spType"
+  android:layout_height="wrap_content" android:layout_width="150dp" 
+  android:background="@drawable/dropdownlist"
+  android:paddingLeft="5dp"
+  android:paddingBottom="5dp"
+  >
+</Spinner>
+
+</LinearLayout>
+<Button android:id="@+id/btnSave"
+android:layout_marginTop="20dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:layout_marginLeft="110dp"
+   android:background="@drawable/x_save_btn"
+   android:layout_below="@+id/LinearLayout02">
+ </Button>
+</RelativeLayout>

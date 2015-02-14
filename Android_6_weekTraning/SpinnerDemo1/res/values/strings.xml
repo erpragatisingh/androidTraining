@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">SpinnerDemo1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spinner_demo1">SpinnerDemo1</string>
+    <string-array name="Elements">
+        <item >AAA</item>
+        <item >BBB</item>
+        <item >CCC</item>
+        <item >DDD</item>
+        <item >EEE</item>
+    </string-array>
+
+</resources>

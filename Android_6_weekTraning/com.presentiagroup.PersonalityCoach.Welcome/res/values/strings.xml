@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">Personality Guide</string>
+     <string name="blue">#40444c</string>
+     <string name="lightblue">#065ab3</string>
+ </resources>

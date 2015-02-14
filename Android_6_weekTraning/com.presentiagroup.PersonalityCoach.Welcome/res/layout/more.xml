@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs">
+    <RelativeLayout android:id="@+id/ivMore" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView 	android:layout_width="wrap_content" 
+				 			android:layout_height="wrap_content"
+				 			android:text="About us" 
+				 			android:textStyle="bold" 
+				 			android:textSize="18dip"
+				 			android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   			android:id="@+id/btnHome" 
+				   			android:layout_width="wrap_content" 
+				   			android:layout_height="wrap_content"
+				   			android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_centerInParent="true"
+    
+    
+    >
+	<Button android:id="@+id/btnPresntia" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/bluebar" android:text="Finland Labs"></Button>
+	<Button android:id="@+id/btnOKA" android:layout_marginTop="15dp" android:layout_below="@id/btnPresntia" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/bluebar" android:text="Developer"></Button>
+	<Button android:id="@+id/btnTakeMBTI" android:layout_marginTop="15dp" android:layout_below="@id/btnOKA" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/bluebar" android:text="About Application"></Button>
+	<Button android:id="@+id/btnConnectUs" android:layout_marginTop="15dp" android:layout_below="@id/btnTakeMBTI" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/bluebar" android:text="Feedback" ></Button>
+
+</RelativeLayout>
+</RelativeLayout>

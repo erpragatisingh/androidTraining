@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/wooden2"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:text="Set Time Table"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/set"
+        android:layout_marginTop="73dp"
+        android:background="@android:color/transparent"
+        android:text="View Time Table"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mark"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:text="Mark Attendance"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:text="Check Attendance"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/backone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:background="@android:color/transparent"
+        android:text="Back"
+        android:textSize="30sp" />
+
+</RelativeLayout>

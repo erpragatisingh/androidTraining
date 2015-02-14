@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_vertical"
+	android:background="@drawable/bg_content">
+	<RelativeLayout android:id="@+id/ivWeb"
+		android:layout_alignParentTop="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/top_blue_bar">
+		<Button android:id="@+id/btnBack" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+			android:background="@drawable/x_back_btn"
+			android:layout_centerVertical="true">
+		</Button>
+		<TextView android:id="@+id/tvTitle" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Personality Coach"
+			android:textStyle="bold" android:textSize="20sp" android:textColor="#ffffff"
+			android:layout_centerVertical="true" android:layout_centerInParent="true">
+		</TextView>
+
+		<Button android:id="@+id/btnHome" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/x_home_icon"
+			android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+			android:layout_centerVertical="true">
+		</Button>
+
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_below="@id/ivWeb"
+		android:layout_width="fill_parent" 
+		android:background="@drawable/bg_box" android:layout_margin="10dp"
+		android:layout_height="wrap_content">
+
+		<ScrollView android:id="@+id/ScrollView01"
+
+			android:layout_width="fill_parent" android:scrollbars="vertical"
+			android:layout_gravity="center_horizontal" android:scrollbarSize="5dip"
+			android:layout_marginBottom="50dp"
+			android:layout_height="wrap_content">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="vertical" android:padding="5dp"
+				android:layout_height="wrap_content">
+				<WebView android:id="@+id/myWebView1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<WebView android:id="@+id/myWebView2" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_below="@id/myWebView1" />
+				<WebView android:id="@+id/myWebView3" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_below="@id/myWebView2" />
+				<WebView android:id="@+id/myWebView4" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_below="@id/myWebView3" />
+			</LinearLayout>
+		</ScrollView>
+
+		<Button android:id="@+id/btnOk" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_marginBottom="5dp"  android:layout_centerHorizontal="true" android:background="@drawable/x_ok_btn">
+		</Button>
+	</RelativeLayout>
+</RelativeLayout>

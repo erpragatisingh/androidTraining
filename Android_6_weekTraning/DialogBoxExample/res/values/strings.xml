@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DialogBoxExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="start">Do you want to start the application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

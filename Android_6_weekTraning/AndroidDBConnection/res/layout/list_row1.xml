@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left sied themeTourList_thumb image -->
+    <LinearLayout android:id="@+id/themeTourList_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/themeTourList_image"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+        />
+
+ 
+    </LinearLayout>
+ 
+    <!-- themeTourList_title Of Song-->
+    <TextView
+        android:id="@+id/themeTourList_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignTop="@+id/themeTourList_thumb"
+        android:layout_toRightOf="@+id/themeTourList_thumb"
+        android:typeface="sans"
+        android:textSize="18dp"
+        android:textColor="#1D1C1C"
+        android:text="Solo Woman Travellers"
+        android:textStyle="normal"/>
+ 
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/themeTourList_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/themeTourList_title"
+        android:textColor="#0B687F"
+        android:textSize="13dp"
+        android:layout_marginTop="1dip"
+        android:text="3 Nights - 4 Days"
+        android:layout_toRightOf="@+id/themeTourList_thumb" />
+ 
+     <!-- Rightend Arrow -->
+
+     <ImageView
+         android:id="@+id/imgarrow"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginBottom="3dp"
+         android:src="@drawable/arrow" />
+
+</RelativeLayout>

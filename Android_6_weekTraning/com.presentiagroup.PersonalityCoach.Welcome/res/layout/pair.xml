@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bgs">
+	<RelativeLayout android:id="@+id/ivpair"
+		android:layout_alignParentTop="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/top_blue_bar">
+		<Button android:id="@+id/btnBack" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+			android:background="@drawable/x_back_btn"
+			android:layout_centerVertical="true">
+		</Button>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Type to Type"
+			android:textStyle="bold" android:textSize="22sp" android:textColor="#ffffff"
+			android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+
+		<Button android:id="@+id/btnHome" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/x_home_icon"
+			android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+			android:layout_centerVertical="true">
+		</Button>
+
+	</RelativeLayout>
+
+	<RelativeLayout android:id="@+id/LinearLayout010"
+		android:layout_below="@+id/ivpair" android:layout_marginTop="5dp" android:layout_height="wrap_content"
+		
+		android:layout_width="fill_parent">
+		
+		<TextView android:layout_width="wrap_content" android:id="@+id/tvColleagues"
+			android:layout_height="wrap_content" android:text="Colleagues"
+			 android:textSize="20sp" android:textColor="#000"
+			android:layout_centerHorizontal="true"></TextView>
+		
+		
+		<LinearLayout android:id="@+id/LinearLayout01" android:layout_below="@+id/tvColleagues"
+			android:orientation="horizontal" android:layout_marginTop="30dp" android:layout_centerHorizontal="true" android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<RelativeLayout android:layout_height="wrap_content"
+				android:background="@drawable/yellow_arrow_l" android:layout_width="wrap_content" >
+				<TextView android:text="ENTJ"
+					android:layout_centerVertical="true" android:id="@+id/tvFirstTypeVal"
+					android:layout_width="wrap_content" android:textColor="#40444c"
+					android:textSize="16sp" android:textStyle="bold"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="20dp"
+					></TextView>
+
+
+			</RelativeLayout>
+			<RelativeLayout android:orientation="horizontal"
+				android:layout_marginLeft="10dp" android:layout_height="wrap_content"
+				android:background="@drawable/yellow_arrow_r" android:layout_width="wrap_content" >
+ 
+				<TextView android:text="ENTJ" android:id="@+id/tvSecondTypeVal"
+					android:layout_centerVertical="true" android:layout_width="wrap_content"
+					android:textColor="#40444c" android:textSize="16sp"
+					android:layout_marginLeft="50dp"
+					android:textStyle="bold" android:layout_height="wrap_content"></TextView>
+
+			</RelativeLayout>
+
+
+		</LinearLayout>
+	</RelativeLayout>
+<RelativeLayout android:id="@+id/LinearLayout020"
+		android:layout_below="@+id/LinearLayout010" android:layout_marginTop="35dp" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<LinearLayout 	android:orientation="horizontal" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_centerHorizontal="true"  >
+	<LinearLayout android:id="@+id/LinearLayout01"
+					
+		android:orientation="vertical" 
+		android:layout_height="wrap_content" android:layout_width="wrap_content">
+		<TextView android:text="First Name" android:id="@+id/tvFirstType"
+			android:layout_width="130dp" android:textColor="#065ab3"
+			android:textSize="16sp" android:textStyle="bold"
+			android:layout_height="wrap_content"></TextView>
+			<Spinner android:id="@+id/spMyType" android:layout_marginTop="5dp" android:layout_height="30dp"
+			android:background="@drawable/dropdownlist" android:layout_width="150dp" android:paddingLeft="2dp"
+  			android:paddingBottom="5dp">
+		</Spinner>
+		
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_marginLeft="10dp" 
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+		<TextView android:text="Second Name" android:id="@+id/tvSecondType"
+			android:layout_width="130dp" android:textColor="#065ab3"
+			android:textSize="16sp" android:textStyle="bold"
+			android:layout_height="wrap_content"></TextView>
+		<Spinner android:id="@+id/spOtherType" android:layout_marginTop="5dp"  android:background="@drawable/dropdownlist"
+			android:layout_height="30dp" android:layout_width="150dp" android:paddingLeft="2dp"
+  			android:paddingBottom="5dp">
+		</Spinner>
+
+	</LinearLayout>
+</LinearLayout></RelativeLayout>
+	<Button android:id="@+id/btnPaired" android:layout_marginTop="50dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:background="@drawable/x_connect_btn"
+		android:layout_below="@+id/LinearLayout020">
+	</Button>
+</RelativeLayout>

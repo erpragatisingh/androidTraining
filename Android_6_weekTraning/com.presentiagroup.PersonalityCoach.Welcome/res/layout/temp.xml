@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgs">
+    <RelativeLayout android:id="@+id/ivScales" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content"
+				 android:text="Profile Temperaments" 
+				 android:textStyle="bold" 
+				 android:textSize="18dip"
+				 android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_centerInParent="true"></TextView>
+				 
+				 <Button  
+				   android:id="@+id/btnHome" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/ivScales"
+    >
+    <Button android:id="@+id/btnOverview" android:layout_width="wrap_content"   android:layout_height="wrap_content"  android:layout_centerHorizontal="true" android:background="@drawable/x_temp_overview_btn"></Button>
+	<Button android:id="@+id/btnNT" android:layout_below="@id/btnOverview" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_nt_btn"></Button>
+	<Button android:id="@+id/btnNF" android:layout_below="@id/btnNT" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_nf_btn"></Button>
+	<Button android:id="@+id/btnSP" android:layout_below="@id/btnNF" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_sp_btn"></Button>
+	<Button android:id="@+id/btnSJ" android:layout_below="@id/btnSP" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:background="@drawable/x_sj_btn"></Button>
+	
+	
+	
+</RelativeLayout>
+</RelativeLayout>

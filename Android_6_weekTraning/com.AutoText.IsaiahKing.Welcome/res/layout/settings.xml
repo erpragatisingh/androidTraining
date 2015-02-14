@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:background="@drawable/bg">
+	<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+	<RelativeLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+	>
+	<RelativeLayout android:id="@+id/ivSettings" 
+				
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/topbar">
+				<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="Settings" android:textStyle="bold" 
+				android:layout_centerInParent="true" 
+				android:textColor="#A2F414"></TextView>
+				</RelativeLayout>
+	<CheckBox android:id="@+id/Activate"  
+			  android:layout_width="wrap_content" 
+			  android:layout_below="@id/ivSettings" 
+			  android:layout_height="wrap_content" android:text="Activate" android:textStyle="bold" android:layout_marginLeft="30dip" android:layout_marginTop="10dip"></CheckBox>
+<RadioGroup 
+	android:checkedButton="@+id/rbAddBookContact" 
+	android:id="@+id/rbgContact" 
+	android:layout_width="wrap_content" 
+	android:layout_below="@id/Activate" 
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="30dip" 
+	android:layout_marginTop="10dip">
+	<RadioButton android:id="@+id/rbAddBookContact" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="Address Book Contacts" 
+				android:textStyle="bold">
+	</RadioButton>
+	<RadioButton 
+			android:id="@+id/rbAllContacts" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="All Contacts" 
+			android:textStyle="bold">
+	</RadioButton>
+</RadioGroup>
+<TextView android:layout_below="@id/rbgContact" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/tvMessageTemplate" 
+			android:text="Message Template" 
+			android:textStyle="bold" 
+			android:textColor="#fff" 
+			android:layout_marginLeft="30dip" 
+			android:layout_marginTop="10dip" 
+			android:layout_marginRight="10dip">
+</TextView>
+<Button 
+		android:id="@+id/btnSetMsg" 
+		android:layout_below="@id/tvMessageTemplate" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:background="@drawable/setmsg_button" 
+		android:layout_centerInParent="true" 
+		android:layout_marginTop="50dip">
+</Button>
+<Button  
+		android:id="@+id/btnAddEditDeleteMsg" 
+		android:layout_below="@id/btnSetMsg" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:background="@drawable/addeditdelete_button" 
+		android:layout_centerInParent="true" 
+		android:layout_marginTop="30dip">
+</Button>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

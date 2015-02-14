@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/401/trunk/OpenSudokuTest/scripts
+END
+run-tests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/401/trunk/OpenSudokuTest/scripts/run-tests.sh
+END

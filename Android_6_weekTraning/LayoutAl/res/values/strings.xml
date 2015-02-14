@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout All</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="SpinOne">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <string-array name="SpinTwo">
+        <item>TCS</item>
+        <item>Wipro</item>
+        <item>HCL</item>
+    </string-array>
+
+    <string name="message">Hi How are you . The Contacts Provider is the central repository of the users contacts information, including data from contacts apps and social networking apps. In your apps, you can access Contacts Provider information directly by calling ContentResolver methods or by sending intents to a contacts app.
+
+    This class focuses on retrieving lists of contacts, displaying the details for a particular contact, and modifying contacts using intents. The basic techniques described here can be extended to perform more complex tasks. In addition, this class helps you understand the overall structure and operation of the Contacts Provider. </string>
+
+</resources>

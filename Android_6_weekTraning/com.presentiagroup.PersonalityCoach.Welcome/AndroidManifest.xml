@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.presentiagroup.PersonalityCoach"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Welcome" android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".FourScales" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" ></activity>
+	<activity android:name=".FourTemper" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".FourTemperInfo" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".Home" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".LearnMore" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".MBTIPrayers" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".Scales" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".SixteenTypes" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".SixteenTypesInfo" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".TenCommandments" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".TypeToType" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	
+
+	<activity android:name=".MoreInfo" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".AddEditFriends" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	
+	<activity android:name=".Presentia" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".ConnectWithUs" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".Survey" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".TakeMBTI" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".FourScalesInfo" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".AddEditMy" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".FriendList" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".GetTipsForEachSixteen" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".GetTipsCommunication" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+	<activity android:name=".PairInfo" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"></activity>
+</application>
+<uses-sdk android:minSdkVersion="4" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

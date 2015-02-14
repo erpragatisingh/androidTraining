@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:cacheColorHint="#00000000"
+	android:background="#00000000"
+    android:padding="10dip">
+
+   <TextView android:id="@+id/tvMessage"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:layout_width="0dip"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         android:singleLine="true" android:text="Message1" android:textColor="#fff"/>
+    <Button android:id="@+id/btnEditMsg"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" android:background="@drawable/edit"/>
+    <Button android:id="@+id/btnDeleteMsg"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/delete"/>
+
+
+		
+</LinearLayout>

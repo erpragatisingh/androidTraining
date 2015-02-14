@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_content">
+<RelativeLayout android:id="@+id/ivWeb" 
+				android:layout_alignParentTop="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/top_blue_bar">
+				<Button  
+				   android:id="@+id/btnBack" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginLeft ="10dip"
+				   android:background="@drawable/x_back_btn" android:layout_centerVertical="true">
+				 </Button>
+				<TextView 
+					android:id="@+id/tvTitle"
+					android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content"
+				 android:text="Feedback" 
+				 android:textStyle="bold" 
+				 android:textSize="20sp"
+				 android:textColor="#ffffff" 
+				 android:layout_centerVertical="true" 
+				 android:layout_centerInParent="true">
+				 </TextView>
+				 
+				 <Button  
+				   android:id="@+id/btnHome" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:background="@drawable/x_home_icon" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+				 </Button>
+				 
+				</RelativeLayout>
+				<RelativeLayout 
+				android:layout_below="@+id/ivWeb"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:padding="10dip"
+				
+				>
+				<WebView
+					
+						android:id="@+id/myWebView"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					/>
+
+				<TextView
+				    android:id="@+id/tvSurvey"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignLeft="@+id/myWebView"
+				    android:layout_below="@+id/myWebView"
+				    android:background="#00000000"
+				    android:text="http://finlandlabs.com/connectwithus"
+				    android:textColor="#0000ff"
+				    android:textSize="16sp" />
+
+</RelativeLayout>
+</RelativeLayout>
