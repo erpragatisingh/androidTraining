@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">DialDemo</string>
+    <string name="btn">Call</string>
+    <string name="telNoHintText">Enter a telephone number ...</string>
+</resources>

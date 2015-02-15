@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">CustomEditTextDemo</string>
+    <string name="edit1_text">EditText Widget</string>
+    <string name="edit2_text">Disabled EditText Widget</string>
+    <color name="blue">#0099cc</color>
+
+</resources>

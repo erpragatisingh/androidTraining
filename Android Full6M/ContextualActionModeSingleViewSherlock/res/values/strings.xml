@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ContextualActionModeSingleViewSherlock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="str_action1">Action1</string>
+    <string name="str_action2">Action2</string>
+    <string name="str_action3">Action3</string>
+    
+</resources>

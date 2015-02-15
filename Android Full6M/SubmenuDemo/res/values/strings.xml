@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">SubmenuDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="action1">Action1</string>
+    <string name="action2">Action2</string>
+    <string name="action3">Action3</string>
+    <string name="action4">Action4</string>
+    
+    <string name="action4_sub1">Action4 Sub1</string>
+    <string name="action4_sub2">Action4 Sub2</string>
+    <string name="action4_sub3">Action4 Sub3</string>
+    
+    <string name="action3_sub1">Action3 Sub1</string>
+    <string name="action3_sub2">Action3 Sub2</string>
+    <string name="action3_sub3">Action3 Sub3</string>
+    
+
+</resources>

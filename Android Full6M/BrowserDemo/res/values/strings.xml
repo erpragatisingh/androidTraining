@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BrowserDemo</string>
+    <string name="hnt_te_url">Enter a website here ...</string>
+    <string name="lbl_btn_browse">Browse</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">StylesThemesDemo</string>
+    <string name="venus">This is venus style</string>
+    <string name="venus_center">This is venus.center style</string>
+    <string name="system">This is system style</string>
+    <string name="str_btn">Open Jupiter Screen</string>
+	<string name="jupiter_text">This is jupiter style</string>
+    <string name="jupiter_edit">This is jupiter style</string>
+    <string name="jupiter_button">This is jupiter style</string>
+</resources>

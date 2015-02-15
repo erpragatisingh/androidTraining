@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ActivityResultDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ActivityResultDemo</string>
+    <string name="str_btn_get_result">Get Result</string>
+    <string name="str_activity_result">Activity Result</string>
+    <string name="str_title_activity_result">Activity Result</string>
+    <string name="str_hnt_data">Enter data here </string>
+
+</resources>

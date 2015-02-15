@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">DifferentLayoutDemo</string>
+    <string name="small_screen_size">Small Screen Size Layout</string>
+    <string name="normal_screen_size">Normal Screen Size Layout</string>
+    <string name="large_screen_size">Large Screen Size Layout</string>
+    <string name="xlarge_screen_size">Extra Large Screen Size Layout</string>
+    <string name="main_layout">Main Layout</string>
+    <string name="sw320">Smallest width of the screen is greater than or equal to 320dp</string>
+    <string name="sw480">Smallest width of the screen is greater than or equal to 480dp</string>
+
+</resources>
